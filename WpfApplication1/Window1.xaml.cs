@@ -32,6 +32,8 @@ namespace WpfApplication1
             image1.RenderTransformOrigin = new Point(0.5, 0.5);
             da.RepeatBehavior = RepeatBehavior.Forever;
             rt.BeginAnimation(RotateTransform.AngleProperty, da);
+
+            int sampleChanges = 1111;
         }
     }
 }
